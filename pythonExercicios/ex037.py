@@ -7,10 +7,10 @@ print("------------------")
 n = int(input("Digite um número: "))
 opcao = str.lower(input("Escolha um tipo de conversão: 'B' para binário, 'O' para octal e 'H' para hexadecimal: "))
 if opcao == "b":
-    print(bin(n))
+    print(bin(n)[2:])
 elif opcao == "o":
-    print(oct(n))
+    print(oct(n)[2:])
 elif opcao == "h":
-    print(hex(n))
+    print(hex(n)[2:])
 else:
     print("Opção inválida")
