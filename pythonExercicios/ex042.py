@@ -17,7 +17,7 @@ if a+b > c and a+c > b and b+c > a:
         print("Triângulo EQUILÁTERO, todos os lados são iguais.")
     elif a == b or a ==c or b == c:
         print("Triângulo ISÓSCELES, dois lados iguais, um diferente.")
-    else :
+    else:
         print("Triângulo ESCALENO, todos os lados diferentes.") 
 else:
     print("Não é possível construir o triângulo")    
