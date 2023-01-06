@@ -2,7 +2,6 @@
 #  de três retas e diga ao usuário
 #  se elas podem ou não formar um triângulo.
 
-from re import A
 
 
 print("Digite os valores para formar um triângulo: ")
