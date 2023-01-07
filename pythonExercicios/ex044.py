@@ -28,6 +28,9 @@ elif opcao == 3:
     print(f"O valor é R${valor:.2f} em duas vezes de R${duas:.2f}")
 elif opcao == 4:
     parcela = int(input("Digite o número de parcelas: "))
-    print(f"O valor com 20% de juros é R${juros:.2f} em {parcela} vezes de R${juros / parcela:.2f}")
+    if parcela <= 2:
+        print("Opção inválida")
+    else:
+        print(f"O valor com 20% de juros é R${juros:.2f} em {parcela} vezes de R${juros / parcela:.2f}")
 else:
     print("Opção inválida")
